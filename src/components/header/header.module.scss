@@ -1,3 +1,67 @@
 @use 'colors';
 @use 'variables';
 @use 'fonts';
+.wrapper {
+    width: 100%;
+    &_content {
+        width: 100%;
+        &_headerTop {
+            display: flex;
+            border: 1px solid colors.$text-desc;
+            &_left {
+                padding: 20px 20px 20px 20px;
+                display: flex;
+                width: 50%;
+                &_number {
+                    border-right: 1px solid colors.$text-desc;
+                    width: 150px;
+                    display: flex;
+                    color: colors.$text-svg-header;
+                }
+                p {
+                    padding-left: 10px;
+                    color: colors.$text-p;
+                    font-weight: 600;
+                }
+                &_mail {
+                    display: flex;
+                    padding-left: 20px;
+                    color: colors.$text-svg-header;
+                    font-weight: 600;
+                }
+            }
+            &_social {
+                display: flex;
+                width: 20%;
+                 :nth-child(1n) {
+                    padding: 10px;
+                }
+                 :nth-child(1) {
+                     ::before {
+                        color: aqua;
+                    }
+                }
+                justify-content: center;
+                align-items: center;
+            }
+            &_bookingNow {
+                font-size: 18px;
+                font-weight: bold;
+                padding: 16px 28px 15px;
+                background: #dfa974;
+                color: #ffffff;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+            }
+        }
+        &_headerButtom {
+            display: flex;
+            &_leftHeader {
+                width: 50%;
+                &_logo {
+                    padding: 25px 0;
+                }
+            }
+        }
+    }
+}
