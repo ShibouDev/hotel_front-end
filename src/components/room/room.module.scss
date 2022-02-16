@@ -1,0 +1,54 @@
+@use 'colors';
+@use 'fonts';
+.wrapper {
+    width: 100%;
+    &_content {
+        display: flex;
+        &_block {
+            justify-content: space-between;
+            width: 100%;
+            display: flex;
+            &_items {
+                position: relative;
+                &_item {
+                    margin-right: -15px;
+                    position: relative;
+                    overflow: hidden;
+                    display: flex;
+                    flex-wrap: wrap;
+                    &_bg {
+                        height: 600px;
+                        background-image: url("../../common/img/room1.jpg");
+                        object-fit: cover;
+                        background-repeat: no-repeat;
+                        width: 480px;
+                        padding-right: 10px;
+                        &_text {
+                            padding-left: 20px;
+                            display: flex;
+                            flex-direction: column;
+                            height: 600px;
+                            color: #fff;
+                            justify-content: flex-end;
+                            h3 {
+                                font-weight: 600;
+                                font-size: 32px;
+                                margin-bottom: -10px;
+                            }
+                            h2 {
+                                font-size: 32px;
+                                font-weight: 600;
+                                color: colors.$text-svg-header;
+                                span {
+                                    font-weight: 400;
+                                    font-size: 1px;
+                                    color: #fff;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

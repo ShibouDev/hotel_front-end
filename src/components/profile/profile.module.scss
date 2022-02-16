@@ -1,0 +1,129 @@
+@use 'fonts';
+@use 'colors';
+.wrapper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    &_content {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 1170px;
+        &_text {
+            display: flex;
+            flex-wrap: wrap;
+            margin-right: -15px;
+            margin-left: -15px;
+            justify-content: center;
+            flex-direction: column;
+            padding-bottom: 50px;
+            &_title {
+                font-size: 44px;
+                color: #19191a;
+                margin-bottom: 12px;
+                text-align: center;
+            }
+            &_name {
+                &_yourName {
+                    font-size: 22px;
+                    color: colors.$text-p;
+                    padding-bottom: 10px;
+                }
+                &_styleName {
+                    font-size: 32px;
+                    color: colors.$text-p;
+                    padding-bottom: 10px;
+                }
+                &_textStyle {
+                    display: inline-block;
+                    font-size: 18px;
+                    color: #aaaab3;
+                }
+            }
+        }
+        &_roomsSection {
+            padding-top: 0;
+            padding-bottom: 80px;
+            &_content {
+                width: 100%;
+                padding-right: 15px;
+                padding-left: 15px;
+                margin-right: auto;
+                margin-left: auto;
+                max-width: 1170px;
+                &_box {
+                    display: flex;
+                    -ms-flex-wrap: wrap;
+                    flex-wrap: wrap;
+                    margin-right: -15px;
+                    margin-left: -15px;
+                    &_block {
+                        padding: 10px;
+                        flex: 0 0 32.5%;
+                        max-width: 34%;
+                        &_roomItem {
+                            margin-bottom: 30px;
+                            Image {
+                                max-width: 100%;
+                            }
+                            &_textRooms {
+                                border: 1px solid #ebebeb;
+                                border-top: none;
+                                padding: 24px 24px 30px 28px;
+                                h4 {
+                                    color: #19191a;
+                                    margin-bottom: 17px;
+                                }
+                                h3 {
+                                    color: #dfa974;
+                                    font-weight: 700;
+                                    margin-bottom: 14px;
+                                    span {
+                                        font-family: "Cabin", sans-serif;
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        color: #19191a;
+                                    }
+                                }
+                                table {
+                                    margin-bottom: 18px;
+                                    border-collapse: collapse;
+                                    tbody {
+                                        tr {
+                                             :nth-child(1) {
+                                                padding-right: 100px;
+                                            }
+                                             :nth-child(1n) {
+                                                padding-bottom: 10px;
+                                            }
+                                            &_tdstyle {
+                                                width: 125px;
+                                                td {
+                                                    font-size: 16px;
+                                                    color: #707079;
+                                                    line-height: 36px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.desc {
+    color: #19191a;
+    display: inline-block;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    position: relative;
+}

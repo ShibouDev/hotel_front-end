@@ -6,7 +6,8 @@ import { faFacebookF } from '@fortawesome/free-brands-svg-icons'
 import { faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faVk } from '@fortawesome/free-brands-svg-icons'
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'
-import logo from '@common/img/logo.webp'
+import Logo from '@common/img/logo.webp'
+import Image from 'next/image'
 
 export const Header: React.FunctionComponent = () => {
   return (
@@ -30,8 +31,8 @@ export const Header: React.FunctionComponent = () => {
             <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
           </div>
           <div className={styles.wrapper_content_headerTop_bookingNow}>
-            <a href="#" className={styles.button}>
-              Booking Now
+            <a href="login" className={styles.button}>
+              Авторизация
             </a>
           </div>
         </div>
@@ -40,7 +41,27 @@ export const Header: React.FunctionComponent = () => {
             <div
               className={styles.wrapper_content_headerButtom_leftHeader_logo}
             >
-              <img src={logo} />
+              <Image src={Logo} />
+            </div>
+          </div>
+          <div className={styles.wrapper_content_headerButtom_navMenu}>
+            <div
+              className={styles.wrapper_content_headerButtom_navMenu_mainMenu}
+            >
+              <ul>
+                <li>
+                  <a href="/">Главная</a>
+                </li>
+                <li>
+                  <a href="rooms">Комнаты</a>
+                </li>
+                <li>
+                  <a href="#">О нас</a>
+                </li>
+                <li>
+                  <a href="#">Обратная связь</a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>

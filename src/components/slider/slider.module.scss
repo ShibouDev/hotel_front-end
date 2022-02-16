@@ -1,0 +1,171 @@
+@use 'colors';
+@use 'fonts';
+.wrapper {
+    &_content {
+        &_background {
+            position: relative;
+            img {
+                width: 100%;
+                height: calc(100vh - 142px);
+                object-fit: cover;
+            }
+            &_text {
+                align-items: center;
+                width: 100%;
+                height: 100%;
+                top: 50%;
+                transform: translate(0, -50%);
+                position: absolute;
+                &_block {
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    display: flex;
+                    padding-top: 20px;
+                    justify-content: center;
+                    align-items: center;
+                    height: 100%;
+                    &_textAll {
+                        padding-right: 50px;
+                        &_title {
+                            color: #fff;
+                            font-size: 80px;
+                            margin-bottom: 16px;
+                            line-height: 90px;
+                        }
+                        &_desc {
+                            font-size: 22px;
+                            color: #fff;
+                            line-height: 28px;
+                            margin-bottom: 35px;
+                        }
+                        &_button {
+                            padding-bottom: 20px;
+                            a {
+                                position: relative;
+                            }
+                             ::after {
+                                position: absolute;
+                                left: 0;
+                                bottom: -5px;
+                                width: 100%;
+                                height: 2px;
+                                background: #dfa974;
+                                content: "";
+                            }
+                            font-size: 13px;
+                            color: #ffffff;
+                            text-transform: uppercase;
+                            letter-spacing: 2px;
+                            font-weight: 700;
+                        }
+                    }
+                    &_bookingForm {
+                        background: #ffffff;
+                        padding: 44px 40px 50px 40px;
+                        border-radius: 12px;
+                        max-width: 400px;
+                        h3 {
+                            color: colors.$text-p;
+                            margin-bottom: 36px;
+                        }
+                        &_checkDate {
+                            margin-bottom: 15px;
+                            label {
+                                font-size: 14px;
+                                color: colors.$text-p;
+                                display: block;
+                                margin-bottom: 10px;
+                            }
+                            input {
+                                width: 100%;
+                                height: 50px;
+                                border: 1px solid #ebebeb;
+                                border-radius: 2px;
+                                font-size: 16px;
+                                color: #19191a;
+                                text-transform: uppercase;
+                                font-weight: 500;
+                                padding-left: 20px;
+                            }
+                        }
+                        &_selectOption {
+                            margin-bottom: 15px;
+                            label {
+                                font-size: 14px;
+                                color: colors.$text-p;
+                                display: block;
+                                margin-bottom: 10px;
+                            }
+                            select {
+                                width: 100%;
+                                padding: 15px 0;
+                                border: none;
+                            }
+                             :focus-visible {
+                                outline: none;
+                            }
+                            .select_open {
+                                border-radius: 2px;
+                                border: 1px solid #ebebeb;
+                                height: 50px;
+                                line-height: 50px;
+                                outline: none;
+                                padding-left: 20px;
+                                width: 100%;
+                                float: none;
+                                span {
+                                    font-size: 16px;
+                                    color: #19191a;
+                                    text-transform: uppercase;
+                                    font-weight: 500;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.list {
+    width: 120px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 0 1px rgb(68 68 68 / 11%);
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 4px;
+    overflow: hidden;
+    height: 40px;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    -webkit-transform-origin: 50% 0;
+    -moz-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-transform: scale(0.75) translateY(-21px);
+    -moz-transform: scale(0.75) translateY(-21px);
+    transform: scale(0.75) translateY(-21px);
+    -webkit-transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
+    -moz-transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
+    transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
+    z-index: 200;
+    &_li {
+        background-color: #f6f6f6;
+        font-weight: bold;
+        cursor: pointer;
+        font-weight: 400;
+        line-height: 40px;
+        list-style: none;
+        min-height: 40px;
+        outline: none;
+        padding-left: 18px;
+        padding-right: 29px;
+        text-align: left;
+        -webkit-transition: all 0.2s;
+        transition: all 0.2s;
+    }
+}
