@@ -1,6 +1,5 @@
 import styles from './slider.module.scss'
 import background from '@common/img/background-1.jpg'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export const Slider: React.FunctionComponent = () => {
   return (
@@ -50,10 +49,10 @@ export const Slider: React.FunctionComponent = () => {
                       styles.wrapper_content_background_text_block_bookingForm_checkDate
                     }
                   >
-                    <label for="date-in">Дата въезда:</label>
+                    <label htmlFor="date-in">Дата въезда:</label>
                     <input
                       type="text"
-                      class="date-input hasDatepicker"
+                      className="date-input hasDatepicker"
                       id="date-in"
                     ></input>
                   </div>
@@ -62,7 +61,7 @@ export const Slider: React.FunctionComponent = () => {
                       styles.wrapper_content_background_text_block_bookingForm_checkDate
                     }
                   >
-                    <label for="date-in">Дата выезда:</label>
+                    <label htmlFor="date-in">Дата выезда:</label>
                     <input
                       type="text"
                       className="date-input hasDatepicker"
@@ -74,7 +73,7 @@ export const Slider: React.FunctionComponent = () => {
                       styles.wrapper_content_background_text_block_bookingForm_selectOption
                     }
                   >
-                    <label for="guest">кол-во человек:</label>
+                    <label htmlFor="guest">кол-во человек:</label>
 
                     <div className={styles.select_open}>
                       <select>
@@ -90,7 +89,7 @@ export const Slider: React.FunctionComponent = () => {
                       styles.wrapper_content_background_text_block_bookingForm_selectOption
                     }
                   >
-                    <label for="guest">Кол-во комнат:</label>
+                    <label htmlFor="guest">Кол-во комнат:</label>
 
                     <div className={styles.select_open}>
                       <select>
