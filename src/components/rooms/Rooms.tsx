@@ -12,12 +12,14 @@ export const Rooms: React.FunctionComponent = () => {
     <div className={styles.wrapper}>
       <div className={styles.wrapper_content}>
         <div className={styles.wrapper_content_text}>
-          <div className={styles.wrapper_content_text_title}>Our Rooms</div>
+          <div className={styles.wrapper_content_text_title}>Все комнаты</div>
           <div className={styles.wrapper_content_text_location}>
             <a href="/" className={styles.wrapper_content_text_location_home}>
-              Home &gt;
+              Главная &gt;
             </a>
-            <p className={styles.wrapper_content_text_location_rooms}>Rooms</p>
+            <p className={styles.wrapper_content_text_location_rooms}>
+              Комнаты
+            </p>
           </div>
         </div>
         <div className={styles.wrapper_content_roomsSection}>
@@ -89,7 +91,7 @@ export const Rooms: React.FunctionComponent = () => {
                       </tbody>
                     </table>
                     <a href="roomInfo" className={styles.desc}>
-                      More Details
+                      Полная информация
                     </a>
                   </div>
                 </div>
@@ -160,7 +162,7 @@ export const Rooms: React.FunctionComponent = () => {
                       </tbody>
                     </table>
                     <a href="#" className={styles.desc}>
-                      More Details
+                      Полная информация
                     </a>
                   </div>
                 </div>
@@ -231,7 +233,7 @@ export const Rooms: React.FunctionComponent = () => {
                       </tbody>
                     </table>
                     <a href="#" className={styles.desc}>
-                      More Details
+                      Полная информация
                     </a>
                   </div>
                 </div>
@@ -302,7 +304,7 @@ export const Rooms: React.FunctionComponent = () => {
                       </tbody>
                     </table>
                     <a href="#" className={styles.desc}>
-                      More Details
+                      Полная информация
                     </a>
                   </div>
                 </div>
@@ -373,7 +375,7 @@ export const Rooms: React.FunctionComponent = () => {
                       </tbody>
                     </table>
                     <a href="#" className={styles.desc}>
-                      More Details
+                      Полная информация
                     </a>
                   </div>
                 </div>
@@ -444,7 +446,7 @@ export const Rooms: React.FunctionComponent = () => {
                       </tbody>
                     </table>
                     <a href="#" className={styles.desc}>
-                      More Details
+                      Полная информация
                     </a>
                   </div>
                 </div>

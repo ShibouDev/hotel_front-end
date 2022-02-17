@@ -13,9 +13,7 @@ export const WhatWeDo: React.FunctionComponent = () => {
       <div className={styles.wrapper_separator}></div>
       <div className={styles.wrapper_content}>
         <div className={styles.wrapper_content_text}>
-          <div className={styles.wrapper_content_text_title}>
-            Что мы делаем?
-          </div>
+          <div className={styles.wrapper_content_text_title}>Услуги</div>
           <div className={styles.wrapper_content_text_headerText}>
             Откройте для себя наши услуги
           </div>
@@ -26,7 +24,7 @@ export const WhatWeDo: React.FunctionComponent = () => {
                   className={styles.wrapper_content_box_services_block_contents}
                 >
                   <FontAwesomeIcon icon={faLocationDot}></FontAwesomeIcon>
-                  <h4>Travel Plan</h4>
+                  <h4>План путешествия</h4>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore magna.
@@ -36,27 +34,18 @@ export const WhatWeDo: React.FunctionComponent = () => {
                   className={styles.wrapper_content_box_services_block_contents}
                 >
                   <FontAwesomeIcon icon={faUtensils}></FontAwesomeIcon>
-                  <h4>Catering Service</h4>
+                  <h4>Питание</h4>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore magna.
                   </p>
                 </div>
-                <div
-                  className={styles.wrapper_content_box_services_block_contents}
-                >
-                  <FontAwesomeIcon icon={faUtensils}></FontAwesomeIcon>
-                  <h4>Catering Service</h4>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna.
-                  </p>
-                </div>
+
                 <div
                   className={styles.wrapper_content_box_services_block_contents}
                 >
                   <FontAwesomeIcon icon={faBabyCarriage}></FontAwesomeIcon>
-                  <h4>Babysitting</h4>
+                  <h4>Присмотр за ребенком</h4>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore magna.
@@ -66,7 +55,7 @@ export const WhatWeDo: React.FunctionComponent = () => {
                   className={styles.wrapper_content_box_services_block_contents}
                 >
                   <FontAwesomeIcon icon={faSoap}></FontAwesomeIcon>
-                  <h4>Laundry</h4>
+                  <h4>Водные процедуры</h4>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore magna.
@@ -76,7 +65,7 @@ export const WhatWeDo: React.FunctionComponent = () => {
                   className={styles.wrapper_content_box_services_block_contents}
                 >
                   <FontAwesomeIcon icon={faClock}></FontAwesomeIcon>
-                  <h4>Hire Driver</h4>
+                  <h4>Личный</h4>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore magna.
@@ -86,7 +75,7 @@ export const WhatWeDo: React.FunctionComponent = () => {
                   className={styles.wrapper_content_box_services_block_contents}
                 >
                   <FontAwesomeIcon icon={faChampagneGlasses}></FontAwesomeIcon>
-                  <h4>Bar & Drink </h4>
+                  <h4>Бар & Алкоголь </h4>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore magna.

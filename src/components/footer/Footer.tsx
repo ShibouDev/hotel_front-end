@@ -26,8 +26,8 @@ export const Footer: React.FunctionComponent = () => {
               <div
                 className={styles.footerWrapper_container_text_block_about_desk}
               >
-                <p>We inspire and reach millions of travelers</p>
-                <p> across 90 local websites</p>
+                <p>Лучший отель для самого запоминающегося путешествия.</p>
+                <p>Sona A Luxury Hotel - любовь которую вы заслужили</p>
               </div>
               <div
                 className={
@@ -63,7 +63,7 @@ export const Footer: React.FunctionComponent = () => {
               className={styles.footerWrapper_container_text_block_newLatest}
             >
               <h6>New latest</h6>
-              <p>Get the latest updates and offers.</p>
+              <p>Получать последние обновления на почту</p>
               <form
                 action="#"
                 className={
