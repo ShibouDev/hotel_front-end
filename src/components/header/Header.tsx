@@ -56,7 +56,7 @@ export const Header: React.FunctionComponent = () => {
                   <a href="rooms">Комнаты</a>
                 </li>
                 <li>
-                  <a href="#">О нас</a>
+                  <a href="aboutUs">О нас</a>
                 </li>
                 <li>
                   <a href="#">Обратная связь</a>

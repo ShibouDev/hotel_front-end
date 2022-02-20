@@ -1,0 +1,80 @@
+@use 'fonts';
+@use 'colors';
+.wrapper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    &_container {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 1170px;
+        &_text {
+            display: flex;
+            flex-wrap: wrap;
+            margin-right: -15px;
+            margin-left: -15px;
+            text-align: center;
+            justify-content: center;
+            flex-direction: column;
+            padding-bottom: 50px;
+            &_title {
+                font-size: 44px;
+                color: #19191a;
+                margin-bottom: 12px;
+            }
+            &_location {
+                &_home {
+                    display: inline-block;
+                    font-size: 18px;
+                    color: #19191a;
+                    position: relative;
+                    font-weight: 500;
+                }
+                &_rooms {
+                    display: inline-block;
+                    font-size: 18px;
+                    color: #aaaab3;
+                }
+            }
+        }
+        &_info{
+            padding-top:40px;
+            display: flex;
+            justify-content:space-between;
+            &_left{
+                width: 600px;
+                text-align: left;
+                &_title{
+                    font-weight: 600;
+                    font-size: 38px;
+                }
+                &_desc{
+                    font-size: 22px;
+                    font-weight: 400;
+                }
+            }
+            &_right{
+                text-align: left;
+                &_table{
+                    font-size: 22px;
+                    li{
+                        color: colors.$text-p;
+                        list-style-type: none;
+                        svg{
+                            color: colors.$text-svg-header;
+                            padding-right: 20px;
+                        }
+                    }
+                }
+            }
+        }
+        &_img{
+            &_block1{
+            background-image: url('../../common/img/room1.jpg');
+        }
+    }
+    }
+}
