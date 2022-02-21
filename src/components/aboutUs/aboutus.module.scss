@@ -40,30 +40,30 @@
                 }
             }
         }
-        &_info{
-            padding-top:40px;
+        &_info {
+            padding-top: 40px;
             display: flex;
-            justify-content:space-between;
-            &_left{
+            justify-content: space-between;
+            &_left {
                 width: 600px;
                 text-align: left;
-                &_title{
+                &_title {
                     font-weight: 600;
                     font-size: 38px;
                 }
-                &_desc{
+                &_desc {
                     font-size: 22px;
                     font-weight: 400;
                 }
             }
-            &_right{
+            &_right {
                 text-align: left;
-                &_table{
+                &_table {
                     font-size: 22px;
-                    li{
+                    li {
                         color: colors.$text-p;
                         list-style-type: none;
-                        svg{
+                        svg {
                             color: colors.$text-svg-header;
                             padding-right: 20px;
                         }
@@ -71,10 +71,132 @@
                 }
             }
         }
-        &_img{
-            &_block1{
-            background-image: url('../../common/img/room1.jpg');
+        &_img {
+            display: flex;
+            padding-top: 50px;
+            &_block1 {
+                margin-right: 50px;
+                position: relative;
+                background-image: url('../../common/img/aboutUs1.jpg');
+                width: 370px;
+                height: 420px;
+                border-radius: 5px;
+                &_textBlock {
+                    position: absolute;
+                    text-align: center;
+                    width: 370px;
+                    height: 420px;
+                    color: #fff;
+                    font-size: 28px;
+                }
+            }
+            &_block2 {
+                position: relative;
+                margin-right: 50px;
+                background-image: url('../../common/img/aboutUs2.jpg');
+                width: 370px;
+                height: 420px;
+                border-radius: 5px;
+                &_textBlock2 {
+                    position: absolute;
+                    text-align: center;
+                    width: 370px;
+                    height: 420px;
+                    color: #fff;
+                    font-size: 28px;
+                }
+            }
+            &_block3 {
+                position: relative;
+                background-image: url('../../common/img/aboutUs3.jpg');
+                width: 370px;
+                height: 420px;
+                border-radius: 5px;
+                &_textBlock3 {
+                    position: absolute;
+                    text-align: center;
+                    width: 370px;
+                    height: 420px;
+                    color: #fff;
+                    font-size: 28px;
+                }
+            }
         }
     }
+    &_video {
+        background-image: url('../../common/img/video-bg.jpg');
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: cover;
+        height: 500px;
+        padding-top: 140px;
+        &_containerVideo {
+            width: 100%;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+            max-width: 1170px;
+            &_videoText {
+                text-align: center;
+                color: #fff;
+                h2 {
+                    margin-bottom: auto;
+                    font-weight: 700;
+                    font-size: 42px;
+                }
+                p {
+                    font-size: 22px;
+                    font-weight: 400;
+                }
+            }
+        }
     }
+    // &_gallery {
+    //     padding-top: 50px;
+    //     padding-bottom: 50px;
+    //     width: 100%;
+    //     padding-right: 15px;
+    //     padding-left: 15px;
+    //     margin-right: auto;
+    //     margin-left: auto;
+    //     max-width: 1170px;
+    //     display: flex;
+    //     justify-content: center;
+    //     &_text {
+    //         text-align: center;
+    //         &_title {
+    //             font-size: 20px;
+    //             color: colors.$text-svg-header;
+    //             font-weight: 700;
+    //         }
+    //         &_desc {
+    //             font-size: 34px;
+    //             font-weight: 400;
+    //             color: colors.$text-p;
+    //             padding-top: 10px;
+    //         }
+    //     }
+    //     &_content {
+    //         width: 100%;
+    //         padding-right: 15px;
+    //         padding-left: 15px;
+    //         margin-right: auto;
+    //         margin-left: auto;
+    //         max-width: 1170px;
+    //         &_block1 {
+    //             background-image: url('../../common/img/room_miniature3.jpg');
+    //             background-repeat: no-repeat;
+    //             background-position: top center;
+    //             background-size: cover;
+    //             height: 279px;
+    //             padding-bottom: 20px;
+    //             border-radius: 5px;
+    //             position: relative;
+    //             &_item1 {
+    //                 &_text {}
+    //             }
+    //         }
+    //     }
+    // }
 }
