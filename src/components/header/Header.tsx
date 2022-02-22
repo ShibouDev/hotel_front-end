@@ -59,7 +59,7 @@ export const Header: React.FunctionComponent = () => {
                   <a href="aboutUs">О нас</a>
                 </li>
                 <li>
-                  <a href="#">Обратная связь</a>
+                  <a href="feedback">Обратная связь</a>
                 </li>
               </ul>
             </div>
