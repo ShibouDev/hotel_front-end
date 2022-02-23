@@ -78,10 +78,10 @@ export const AboutUs: React.FunctionComponent = () => {
         <div className={styles.wrapper_video_containerVideo}>
           <div className={styles.wrapper_video_containerVideo_videoText}>
             <h2>Откройте для себя наш отель и услуги.</h2>
-            <p>
+            {/* <p>
               Мы предлагаем вам увидеть этот сезон своими глазами в самых лучших
               красках!
-            </p>
+            </p> */}
           </div>
         </div>
       </div>
