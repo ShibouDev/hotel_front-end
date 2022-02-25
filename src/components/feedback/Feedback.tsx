@@ -1,5 +1,5 @@
 import styles from './feedback.module.scss'
-
+// сделать модальное окно через buttononclick
 export const Feedback: React.FunctionComponent = () => {
   return (
     <div className={styles.wrapper}>
