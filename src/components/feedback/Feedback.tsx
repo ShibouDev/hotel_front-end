@@ -8,8 +8,8 @@ export const Feedback: React.FunctionComponent = () => {
           <div className={styles.wrapper_container_info_text}>
             <h2>Обратная связь</h2>
             <p>
-              Если у вас появились вопросы вы всегда можете задать их нам! Мы
-              всегда рады помогать вам
+              Если у вас terfgdgdfgdfпоявились вопросы вы всегда можете задать
+              их нам! Мы всегда рады помогать вам
             </p>
             <table>
               <tbody>
