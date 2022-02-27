@@ -37,7 +37,7 @@ export const Slider: React.FunctionComponent = () => {
                   <a href="#whatWeDo">Узнать сейчас</a>
                 </div>
               </div>
-              <div
+              {/* <div
                 className={
                   styles.wrapper_content_background_text_block_bookingForm
                 }
@@ -99,7 +99,7 @@ export const Slider: React.FunctionComponent = () => {
                     </div>
                   </div>
                 </form>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
