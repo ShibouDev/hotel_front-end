@@ -26,8 +26,7 @@ export const WhatWeDo: React.FunctionComponent = () => {
                   <FontAwesomeIcon icon={faLocationDot}></FontAwesomeIcon>
                   <h4>План путешествия</h4>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna.
+                    Мы готовы помочь вам в составлении плана вашего путешествия. Множество экскурсий, которые принесут вам незабываемые впечатления.
                   </p>
                 </div>
                 <div
@@ -36,8 +35,7 @@ export const WhatWeDo: React.FunctionComponent = () => {
                   <FontAwesomeIcon icon={faUtensils}></FontAwesomeIcon>
                   <h4>Питание</h4>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna.
+                    6-ти разовое питание никогда не оставит вас голодным. Любая еда на ваш вкус.
                   </p>
                 </div>
 
@@ -47,8 +45,7 @@ export const WhatWeDo: React.FunctionComponent = () => {
                   <FontAwesomeIcon icon={faBabyCarriage}></FontAwesomeIcon>
                   <h4>Присмотр за ребенком</h4>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna.
+                    Мы всегда сможем присмотреть за вашим ребенком. Детская игровая комната не даст вашему ребенку заскучать, а проффесиональные няни всегда смогут позабоиться о вашем ребенке.
                   </p>
                 </div>
                 <div
@@ -57,18 +54,16 @@ export const WhatWeDo: React.FunctionComponent = () => {
                   <FontAwesomeIcon icon={faSoap}></FontAwesomeIcon>
                   <h4>Водные процедуры</h4>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna.
+                    В нашем отеле вы найдете лучшие водные процедуры: баня, хаммам, джакузи, 8 бассеинов по всей территории отеля.
                   </p>
                 </div>
                 <div
                   className={styles.wrapper_content_box_services_block_contents}
                 >
                   <FontAwesomeIcon icon={faClock}></FontAwesomeIcon>
-                  <h4>Личный</h4>
+                  <h4>Личный досуг</h4>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna.
+                    У нас предусмотрены комнаты для личного досуга, бизнесс встреч, а так же комната где можно отдохнуть от шума и движения.
                   </p>
                 </div>
                 <div
@@ -77,8 +72,7 @@ export const WhatWeDo: React.FunctionComponent = () => {
                   <FontAwesomeIcon icon={faChampagneGlasses}></FontAwesomeIcon>
                   <h4>Бар & Алкоголь </h4>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna.
+                    Бар расположен возле бассеина. В баре вы сможете найти алкоголь на свой вкус. Бармены сделают вам любой коктель который вы попросите.
                   </p>
                 </div>
               </div>

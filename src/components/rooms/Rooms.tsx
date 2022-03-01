@@ -44,7 +44,7 @@ export const Rooms: React.FunctionComponent = () => {
                     <h4>Premium King Room</h4>
                     <h3>
                       159$
-                      <span>/Pernight</span>
+                      <span>/За одну ночь</span>
                     </h3>
                     <table>
                       <tbody>
@@ -54,9 +54,9 @@ export const Rooms: React.FunctionComponent = () => {
                               styles.wrapper_content_roomsSection_content_box_block_roomItem_textRooms_tdstyle
                             }
                           >
-                            Size:
+                            Размер:
                           </td>
-                          <td>30 ft</td>
+                          <td>30 м²</td>
                         </tr>
                         <tr>
                           <td
@@ -64,9 +64,9 @@ export const Rooms: React.FunctionComponent = () => {
                               styles.wrapper_content_roomsSection_content_box_block_roomItem_textRooms_tdstyle
                             }
                           >
-                            Capacity:
+                            Вместимость:
                           </td>
-                          <td>Max persion 3</td>
+                          <td>Максимально людей - 3</td>
                         </tr>
                         <tr>
                           <td
@@ -74,9 +74,9 @@ export const Rooms: React.FunctionComponent = () => {
                               styles.wrapper_content_roomsSection_content_box_block_roomItem_textRooms_tdstyle
                             }
                           >
-                            Bed:
+                            Кровать:
                           </td>
-                          <td>King Beds</td>
+                          <td>Королевская ложа</td>
                         </tr>
                         <tr>
                           <td
@@ -84,9 +84,9 @@ export const Rooms: React.FunctionComponent = () => {
                               styles.wrapper_content_roomsSection_content_box_block_roomItem_textRooms_tdstyle
                             }
                           >
-                            Services:
+                            Услуги:
                           </td>
-                          <td>Wifi, Television, Bathroom,...</td>
+                          <td>Wifi, Телевизор, Ванна,...</td>
                         </tr>
                       </tbody>
                     </table>
@@ -112,10 +112,10 @@ export const Rooms: React.FunctionComponent = () => {
                       styles.wrapper_content_roomsSection_content_box_block_roomItem_textRooms
                     }
                   >
-                    <h4>Premium King Room</h4>
+                    <h4>Семейная комната</h4>
                     <h3>
-                      159$
-                      <span>/Pernight</span>
+                      67$
+                      <span>/За одну ночь</span>
                     </h3>
                     <table>
                       <tbody>
@@ -125,9 +125,9 @@ export const Rooms: React.FunctionComponent = () => {
                               styles.wrapper_content_roomsSection_content_box_block_roomItem_textRooms_tdstyle
                             }
                           >
-                            Size:
+                            Размер:
                           </td>
-                          <td>30 ft</td>
+                          <td>20 м²</td>
                         </tr>
                         <tr>
                           <td
@@ -135,9 +135,9 @@ export const Rooms: React.FunctionComponent = () => {
                               styles.wrapper_content_roomsSection_content_box_block_roomItem_textRooms_tdstyle
                             }
                           >
-                            Capacity:
+                            Вместимость:
                           </td>
-                          <td>Max persion 3</td>
+                          <td>Максимально людей - 6</td>
                         </tr>
                         <tr>
                           <td
@@ -145,9 +145,9 @@ export const Rooms: React.FunctionComponent = () => {
                               styles.wrapper_content_roomsSection_content_box_block_roomItem_textRooms_tdstyle
                             }
                           >
-                            Bed:
+                            Кровать:
                           </td>
-                          <td>King Beds</td>
+                          <td>двухспальные кровати</td>
                         </tr>
                         <tr>
                           <td
@@ -155,9 +155,9 @@ export const Rooms: React.FunctionComponent = () => {
                               styles.wrapper_content_roomsSection_content_box_block_roomItem_textRooms_tdstyle
                             }
                           >
-                            Services:
+                            Услуги:
                           </td>
-                          <td>Wifi, Television, Bathroom,...</td>
+                          <td>Wifi, Телевизор, Ванная,...</td>
                         </tr>
                       </tbody>
                     </table>
@@ -183,10 +183,10 @@ export const Rooms: React.FunctionComponent = () => {
                       styles.wrapper_content_roomsSection_content_box_block_roomItem_textRooms
                     }
                   >
-                    <h4>Premium King Room</h4>
+                    <h4>Парная комната</h4>
                     <h3>
-                      159$
-                      <span>/Pernight</span>
+                      64$
+                      <span>/За одну ночь</span>
                     </h3>
                     <table>
                       <tbody>
@@ -196,9 +196,9 @@ export const Rooms: React.FunctionComponent = () => {
                               styles.wrapper_content_roomsSection_content_box_block_roomItem_textRooms_tdstyle
                             }
                           >
-                            Size:
+                            Рзамер:
                           </td>
-                          <td>30 ft</td>
+                          <td>30 м²</td>
                         </tr>
                         <tr>
                           <td
@@ -206,9 +206,9 @@ export const Rooms: React.FunctionComponent = () => {
                               styles.wrapper_content_roomsSection_content_box_block_roomItem_textRooms_tdstyle
                             }
                           >
-                            Capacity:
+                            Вместимость:
                           </td>
-                          <td>Max persion 3</td>
+                          <td>Максимально людей - 2</td>
                         </tr>
                         <tr>
                           <td
@@ -216,9 +216,9 @@ export const Rooms: React.FunctionComponent = () => {
                               styles.wrapper_content_roomsSection_content_box_block_roomItem_textRooms_tdstyle
                             }
                           >
-                            Bed:
+                            Кровать:
                           </td>
-                          <td>King Beds</td>
+                          <td>Двухспальная кровать</td>
                         </tr>
                         <tr>
                           <td
@@ -226,9 +226,9 @@ export const Rooms: React.FunctionComponent = () => {
                               styles.wrapper_content_roomsSection_content_box_block_roomItem_textRooms_tdstyle
                             }
                           >
-                            Services:
+                            Услуги:
                           </td>
-                          <td>Wifi, Television, Bathroom,...</td>
+                          <td>Wifi, Телевизор, Ванна,...</td>
                         </tr>
                       </tbody>
                     </table>
@@ -254,10 +254,10 @@ export const Rooms: React.FunctionComponent = () => {
                       styles.wrapper_content_roomsSection_content_box_block_roomItem_textRooms
                     }
                   >
-                    <h4>Premium King Room</h4>
+                    <h4>Комната для компании друзей</h4>
                     <h3>
-                      159$
-                      <span>/Pernight</span>
+                      64$
+                      <span>/За одну ночь</span>
                     </h3>
                     <table>
                       <tbody>
@@ -267,9 +267,9 @@ export const Rooms: React.FunctionComponent = () => {
                               styles.wrapper_content_roomsSection_content_box_block_roomItem_textRooms_tdstyle
                             }
                           >
-                            Size:
+                            Размер:
                           </td>
-                          <td>30 ft</td>
+                          <td>36 м²</td>
                         </tr>
                         <tr>
                           <td
@@ -277,9 +277,9 @@ export const Rooms: React.FunctionComponent = () => {
                               styles.wrapper_content_roomsSection_content_box_block_roomItem_textRooms_tdstyle
                             }
                           >
-                            Capacity:
+                            Вместимость:
                           </td>
-                          <td>Max persion 3</td>
+                          <td>Максимально людей - 8</td>
                         </tr>
                         <tr>
                           <td
@@ -287,9 +287,9 @@ export const Rooms: React.FunctionComponent = () => {
                               styles.wrapper_content_roomsSection_content_box_block_roomItem_textRooms_tdstyle
                             }
                           >
-                            Bed:
+                            Кровать:
                           </td>
-                          <td>King Beds</td>
+                          <td>Двухспальные кровати</td>
                         </tr>
                         <tr>
                           <td
@@ -297,9 +297,9 @@ export const Rooms: React.FunctionComponent = () => {
                               styles.wrapper_content_roomsSection_content_box_block_roomItem_textRooms_tdstyle
                             }
                           >
-                            Services:
+                            Услуги:
                           </td>
-                          <td>Wifi, Television, Bathroom,...</td>
+                          <td>Wifi, Телевизор, Ванна,...</td>
                         </tr>
                       </tbody>
                     </table>
@@ -325,10 +325,10 @@ export const Rooms: React.FunctionComponent = () => {
                       styles.wrapper_content_roomsSection_content_box_block_roomItem_textRooms
                     }
                   >
-                    <h4>Premium King Room</h4>
+                    <h4>Комната для одного</h4>
                     <h3>
-                      159$
-                      <span>/Pernight</span>
+                      35$
+                      <span>/За одну ночь</span>
                     </h3>
                     <table>
                       <tbody>
@@ -338,9 +338,9 @@ export const Rooms: React.FunctionComponent = () => {
                               styles.wrapper_content_roomsSection_content_box_block_roomItem_textRooms_tdstyle
                             }
                           >
-                            Size:
+                            Размер:
                           </td>
-                          <td>30 ft</td>
+                          <td>15 м²</td>
                         </tr>
                         <tr>
                           <td
@@ -348,9 +348,9 @@ export const Rooms: React.FunctionComponent = () => {
                               styles.wrapper_content_roomsSection_content_box_block_roomItem_textRooms_tdstyle
                             }
                           >
-                            Capacity:
+                            Вместимость:
                           </td>
-                          <td>Max persion 3</td>
+                          <td>Максимально людей - 1</td>
                         </tr>
                         <tr>
                           <td
@@ -358,9 +358,9 @@ export const Rooms: React.FunctionComponent = () => {
                               styles.wrapper_content_roomsSection_content_box_block_roomItem_textRooms_tdstyle
                             }
                           >
-                            Bed:
+                            Кровать:
                           </td>
-                          <td>King Beds</td>
+                          <td>Одноместная кровать</td>
                         </tr>
                         <tr>
                           <td
@@ -368,9 +368,9 @@ export const Rooms: React.FunctionComponent = () => {
                               styles.wrapper_content_roomsSection_content_box_block_roomItem_textRooms_tdstyle
                             }
                           >
-                            Services:
+                            Услуги:
                           </td>
-                          <td>Wifi, Television, Bathroom,...</td>
+                          <td>Wifi, Телевизор, Ванна,...</td>
                         </tr>
                       </tbody>
                     </table>
@@ -396,10 +396,10 @@ export const Rooms: React.FunctionComponent = () => {
                       styles.wrapper_content_roomsSection_content_box_block_roomItem_textRooms
                     }
                   >
-                    <h4>Premium King Room</h4>
+                    <h4>Комната с бассеином</h4>
                     <h3>
-                      159$
-                      <span>/Pernight</span>
+                    125$
+                      <span>/За одну ночь</span>
                     </h3>
                     <table>
                       <tbody>
@@ -409,9 +409,9 @@ export const Rooms: React.FunctionComponent = () => {
                               styles.wrapper_content_roomsSection_content_box_block_roomItem_textRooms_tdstyle
                             }
                           >
-                            Size:
+                             Размер:
                           </td>
-                          <td>30 ft</td>
+                          <td>35 м²</td>
                         </tr>
                         <tr>
                           <td
@@ -419,9 +419,9 @@ export const Rooms: React.FunctionComponent = () => {
                               styles.wrapper_content_roomsSection_content_box_block_roomItem_textRooms_tdstyle
                             }
                           >
-                            Capacity:
+                            Вместимость:
                           </td>
-                          <td>Max persion 3</td>
+                          <td>Максимально людей - 3</td>
                         </tr>
                         <tr>
                           <td
@@ -429,9 +429,9 @@ export const Rooms: React.FunctionComponent = () => {
                               styles.wrapper_content_roomsSection_content_box_block_roomItem_textRooms_tdstyle
                             }
                           >
-                            Bed:
+                            Кровать:
                           </td>
-                          <td>King Beds</td>
+                          <td>Двухспальные кровати</td>
                         </tr>
                         <tr>
                           <td
@@ -439,9 +439,9 @@ export const Rooms: React.FunctionComponent = () => {
                               styles.wrapper_content_roomsSection_content_box_block_roomItem_textRooms_tdstyle
                             }
                           >
-                            Services:
+                            Услуги:
                           </td>
-                          <td>Wifi, Television, Bathroom,...</td>
+                          <td>Wifi, Телевизор, Ванна,...</td>
                         </tr>
                       </tbody>
                     </table>
