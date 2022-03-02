@@ -44,16 +44,16 @@ export const Settings: React.FunctionComponent = () => {
       <SideBar />
       <div className={styles.wrapper_container}>
         <div className={styles.wrapper_container_header}>
-          <div className={styles.wrapper_container_header_title}>
+          {/* <div className={styles.wrapper_container_header_title}>
             <p>Контакты</p>
-          </div>
+          </div> */}
           <div className={styles.wrapper_container_header_user}>
-            <div className={styles.wrapper_container_header_user_nameUser}>
+            {/* <div className={styles.wrapper_container_header_user_nameUser}>
               <p>Admin</p>
-            </div>
-            <div
+            </div> */}
+            {/* <div
               className={styles.wrapper_container_header_user_iconUser}
-            ></div>
+            ></div> */}
           </div>
         </div>
         <div className={styles.wrapper_container_tableTop}>
@@ -66,14 +66,14 @@ export const Settings: React.FunctionComponent = () => {
                   styles.wrapper_container_tableTop_block_headerBlock_text
                 }
               >
-                <p>Все контакты</p>
+                <p>Настройки администраторов</p>
               </div>
               <div
                 className={
                   styles.wrapper_container_tableTop_block_headerBlock_sort
                 }
               >
-                <p>Sort</p>
+                <p></p>
               </div>
             </div>
             <div className={styles.table}>
@@ -86,16 +86,6 @@ export const Settings: React.FunctionComponent = () => {
                   <div
                     className={`${styles.table_content_blockVisible_info} ${styles.table_content_blockVisible_active}`}
                   >
-                    <p
-                      className={styles.table_content_blockVisible_active_text}
-                    >
-                      lorem ipsum dolor sit amet, consectlorem ipsum dolor sit
-                      amet, consectlorem ipsum dolor sit amet, consectlorem
-                      ipsum dolor sit amet, consectlorem ipsum dolor sit amet,
-                      consectlorem ipsum dolor sit amet, consectlorem ipsum
-                      dolor sit amet, consectlorem ipsum dolor sit amet,
-                      consectlorem ipsum dolor sit amet, consect
-                    </p>
                     <div
                       className={styles.table_content_blockVisible_active_func}
                     >

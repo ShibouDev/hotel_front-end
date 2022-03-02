@@ -49,17 +49,7 @@ export const Request: React.FunctionComponent = () => {
       <SideBar />
       <div className={styles.wrapper_container}>
         <div className={styles.wrapper_container_header}>
-          <div className={styles.wrapper_container_header_title}>
-            <p>Комнаты</p>
-          </div>
-          <div className={styles.wrapper_container_header_user}>
-            <div className={styles.wrapper_container_header_user_nameUser}>
-              <p>Admin</p>
-            </div>
-            <div
-              className={styles.wrapper_container_header_user_iconUser}
-            ></div>
-          </div>
+          <div className={styles.wrapper_container_header_user}></div>
         </div>
         <div className={styles.wrapper_container_tableTop}>
           <div className={styles.wrapper_container_tableTop_block}>

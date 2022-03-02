@@ -28,7 +28,7 @@ export const Profile: React.FunctionComponent = () => {
     if (token !== '') {
       axios
         .post(
-          `http://127.0.0.1:3231/profile`,
+          `http://api.xoa.macwel.live/profile`,
           {
             token,
           },

@@ -42,17 +42,7 @@ export const adminIndex: React.FunctionComponent = () => {
       <SideBar />
       <div className={styles.indexWrapper_Overview}>
         <div className={styles.indexWrapper_Overview_header}>
-          <div className={styles.indexWrapper_Overview_header_title}>
-            <p>Обзор</p>
-          </div>
-          <div className={styles.indexWrapper_Overview_header_user}>
-            <div className={styles.indexWrapper_Overview_header_user_nameUser}>
-              <p>Admin</p>
-            </div>
-            <div
-              className={styles.indexWrapper_Overview_header_user_iconUser}
-            ></div>
-          </div>
+          <div className={styles.indexWrapper_Overview_header_user}></div>
         </div>
         <div className={styles.indexWrapper_Overview_content}>
           <div className={styles.indexWrapper_Overview_content_description}>

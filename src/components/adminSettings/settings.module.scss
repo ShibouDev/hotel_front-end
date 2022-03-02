@@ -76,6 +76,7 @@
             height: 150px;
             color: #fff;
             background-color: colors.$text-p;
+            max-width: 300px;
             Button {
                 border-top-right-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -85,7 +86,7 @@
             &_active {
                 display: flex;
                 position: relative;
-                width: 100%;
+                width: 50%;
                 justify-content: center;
                 align-items: center;
                 &_text {

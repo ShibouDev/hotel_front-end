@@ -23,7 +23,7 @@ export const Register: React.FunctionComponent = () => {
               }
               axios
                 .post(
-                  `http://127.0.0.1:3231/sign-up`,
+                  `http://api.xoa.macwel.live/sign-up`,
                   {
                     email: values.email,
                     phone: values.phone,

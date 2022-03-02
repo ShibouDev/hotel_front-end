@@ -11,11 +11,14 @@ export const RoomInfo: React.FunctionComponent = () => {
             Полная информация о комнате
           </div>
           <div className={styles.wrapper_content_text_location}>
-            <a href="/" className={styles.wrapper_content_text_location_home}>
-              Главная &gt;
+            <a
+              href="rooms"
+              className={styles.wrapper_content_text_location_home}
+            >
+              Комнаты &gt;
             </a>
             <p className={styles.wrapper_content_text_location_rooms}>
-              Комнаты
+              Полная информация о комнате
             </p>
           </div>
         </div>

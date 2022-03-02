@@ -26,7 +26,7 @@ export const Login: React.FunctionComponent = () => {
               }
               axios
                 .post(
-                  `http://127.0.0.1:3231/sign-in`,
+                  `http://api.xoa.macwel.live/sign-in`,
                   {
                     email: values.email,
                     password: values.password,

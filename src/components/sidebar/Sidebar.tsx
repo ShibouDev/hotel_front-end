@@ -36,7 +36,7 @@ export const SideBar: React.FunctionComponent = () => {
           <Icon className={styles.icon} name="tickets" />
           Комнаты
         </div>
-        <div
+        {/* <div
           className={
             router.asPath === '/admin/contacts'
               ? `${styles.sidebar_items_contacts} &&
@@ -61,7 +61,7 @@ export const SideBar: React.FunctionComponent = () => {
         >
           <Icon className={styles.icon} name="agents" />
           Агенты
-        </div>
+        </div> */}
         <div className={styles.sidebar_items_separator}></div>
         <div
           className={
