@@ -52,7 +52,7 @@ export const Footer: React.FunctionComponent = () => {
               </div>
             </div>
             <div className={styles.footerWrapper_container_text_block_contact}>
-              <h6>Contact Us</h6>
+              <h6>Связаться с нами</h6>
               <ul>
                 <li>+79123037544</li>
                 <li>info.shibou@gmail.com</li>
@@ -62,7 +62,7 @@ export const Footer: React.FunctionComponent = () => {
             <div
               className={styles.footerWrapper_container_text_block_newLatest}
             >
-              <h6>New latest</h6>
+              <h6>Последние обновления</h6>
               <p>Получать последние обновления на почту</p>
               <form
                 action="#"
@@ -93,16 +93,13 @@ export const Footer: React.FunctionComponent = () => {
             >
               <ul>
                 <li>
-                  <a href="#">Contact</a>
+                  <a href="terms">Условия пользования</a>
                 </li>
                 <li>
-                  <a href="#">Terms of use</a>
+                  <a href="#">Приватность</a>
                 </li>
                 <li>
-                  <a href="#">Privacy</a>
-                </li>
-                <li>
-                  <a href="#">Environmental Policy</a>
+                  <a href="cookies">Использование cookies</a>
                 </li>
               </ul>
             </div>
