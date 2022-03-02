@@ -25,7 +25,9 @@ export const About: React.FunctionComponent = () => {
             </p>
           </div>
           <div className={styles.wrapper_content_text_button}>
-            <p>Читать далее</p>
+            <a href="aboutUs">
+              <p>Читать далее</p>
+            </a>
           </div>
         </div>
         <div className={styles.wrapper_content_image}>

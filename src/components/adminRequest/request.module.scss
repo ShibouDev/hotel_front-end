@@ -1,0 +1,157 @@
+    @use 'colors';
+    @use 'fonts';
+    .wrapper {
+        width: 100vw;
+        height: 100vh;
+        background-color: #fff;
+        display: flex;
+        @media (max-width: 1600px) {
+            height: 100%;
+        }
+        &_container {
+            width: 100%;
+            padding: 20px;
+            background-color: #F7F8FC;
+            &_header {
+                display: flex;
+                justify-content: space-between;
+                padding-bottom: 38px;
+                &_title {
+                    font-size: 22px;
+                    font-weight: 600;
+                }
+                &_user {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    &_nameUser {
+                        font-size: 16px;
+                        font-weight: 500;
+                        padding-right: 14px;
+                    }
+                    &_iconUser {
+                        background-color: #A4A6B3;
+                        width: 32px;
+                        height: 32px;
+                        border-radius: 50%;
+                    }
+                }
+            }
+            &_tableTop {
+                display: flex;
+                height: 90%;
+                justify-content: center;
+                &_block {
+                    overflow: auto;
+                    -ms-overflow-style: none !important;
+                    scrollbar-width: none !important;
+                    @media (max-width: 768px) {
+                        border: none;
+                        background-color: none;
+                    }
+                    width: 90%;
+                    background-color: #fff;
+                    border: 1px solid #DFE0EB;
+                    border-radius: 8px;
+                    padding: 32px 32px 0 32px;
+                    &_headerBlock {
+                        display: flex;
+                        justify-content: space-between;
+                        &_text {
+                            font-weight: bold;
+                            font-size: 19px;
+                        }
+                        &_sort {
+                            font-weight: 500;
+                            font-size: 12px;
+                        }
+                    }
+                    &_rooms {
+                        &_roomsSection {
+                            padding-top: 20px;
+                            &_content {
+                                width: 100%;
+                                padding-right: 15px;
+                                padding-left: 15px;
+                                max-width: 1170px;
+                                margin-left: auto;
+                                margin-right: auto;
+                                &_box {
+                                    display: flex;
+                                    -ms-flex-wrap: wrap;
+                                    flex-wrap: wrap;
+                                    margin-right: -15px;
+                                    margin-left: -15px;
+                                    &_block {
+                                        padding: 10px;
+                                        flex: 0 0 32.5%;
+                                        max-width: 34%;
+                                        &_roomItem {
+                                            margin-bottom: 30px;
+                                            Image {
+                                                max-width: 100%;
+                                            }
+                                            &_textRooms {
+                                                border: 1px solid #ebebeb;
+                                                border-top: none;
+                                                padding: 24px 24px 30px 28px;
+                                                h4 {
+                                                    color: #19191a;
+                                                    margin-bottom: 17px;
+                                                }
+                                                h3 {
+                                                    color: #dfa974;
+                                                    font-weight: 700;
+                                                    margin-bottom: 14px;
+                                                    span {
+                                                        font-family: "Cabin", sans-serif;
+                                                        font-size: 14px;
+                                                        font-weight: 400;
+                                                        color: #19191a;
+                                                    }
+                                                }
+                                                table {
+                                                    margin-bottom: 18px;
+                                                    border-collapse: collapse;
+                                                    tbody {
+                                                        button {
+                                                            background-color: colors.$text-svg-header;
+                                                            border: none;
+                                                            margin-top: 10px;
+                                                            font-weight: bold;
+                                                            cursor: pointer;
+                                                        }
+                                                        .delete {
+                                                            background-color: rgb(252, 64, 64);
+                                                            border: none;
+                                                            margin-top: 10px;
+                                                        }
+                                                        tr {
+                                                             :nth-child(1) {
+                                                                padding-right: 100px;
+                                                            }
+                                                             :nth-child(1n) {
+                                                                padding-bottom: 10px;
+                                                            }
+                                                            &_tdstyle {
+                                                                width: 125px;
+                                                                td {
+                                                                    font-size: 16px;
+                                                                    color: #707079;
+                                                                    line-height: 36px;
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }

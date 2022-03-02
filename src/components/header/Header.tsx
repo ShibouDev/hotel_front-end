@@ -17,18 +17,32 @@ export const Header: React.FunctionComponent = () => {
           <div className={styles.wrapper_content_headerTop_left}>
             <div className={styles.wrapper_content_headerTop_left_number}>
               <FontAwesomeIcon icon={faPhone}></FontAwesomeIcon>
-              <p>+79123037544</p>
+              <a href="tel:+79123037544">+79123037544</a>
             </div>
             <div className={styles.wrapper_content_headerTop_left_mail}>
               <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
-              <p>info.shibou@gmail.com</p>
+              <a
+                href="mailto:info.shibou@gmail.com?subject=Sona%20a%20Luxuru%20hotel%20Support%20Me!&body=please%2C%20help%20me!"
+                target="_blank"
+                className={styles.wrapper_content_headerTop_left_mail_mailP}
+              >
+                info.shibou@gmail.com
+              </a>
             </div>
           </div>
           <div className={styles.wrapper_content_headerTop_social}>
-            <FontAwesomeIcon icon={faFacebookF}></FontAwesomeIcon>
-            <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-            <FontAwesomeIcon icon={faVk}></FontAwesomeIcon>
-            <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
+            <a href="https://facebook.com/" className={styles.link}>
+              <FontAwesomeIcon icon={faFacebookF}></FontAwesomeIcon>
+            </a>
+            <a href="https://twitter.com/" className={styles.link}>
+              <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+            </a>
+            <a href="https://vk.com/" className={styles.link}>
+              <FontAwesomeIcon icon={faVk}></FontAwesomeIcon>
+            </a>
+            <a href="https://instagram.com/" className={styles.link}>
+              <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
+            </a>
           </div>
           <div className={styles.wrapper_content_headerTop_bookingNow}>
             <a href="login" className={styles.button}>
@@ -41,7 +55,9 @@ export const Header: React.FunctionComponent = () => {
             <div
               className={styles.wrapper_content_headerButtom_leftHeader_logo}
             >
-              <Image src={Logo} />
+              <a href="/">
+                <Image src={Logo} />
+              </a>
             </div>
           </div>
           <div className={styles.wrapper_content_headerButtom_navMenu}>

@@ -41,7 +41,7 @@ export const Rooms: React.FunctionComponent = () => {
                       styles.wrapper_content_roomsSection_content_box_block_roomItem_textRooms
                     }
                   >
-                    <h4>Premium King Room</h4>
+                    <h4>Премиум комната</h4>
                     <h3>
                       159$
                       <span>/За одну ночь</span>
@@ -147,7 +147,7 @@ export const Rooms: React.FunctionComponent = () => {
                           >
                             Кровать:
                           </td>
-                          <td>двухспальные кровати</td>
+                          <td>Двухспальные кровати</td>
                         </tr>
                         <tr>
                           <td
@@ -196,9 +196,9 @@ export const Rooms: React.FunctionComponent = () => {
                               styles.wrapper_content_roomsSection_content_box_block_roomItem_textRooms_tdstyle
                             }
                           >
-                            Рзамер:
+                            Размер:
                           </td>
-                          <td>30 м²</td>
+                          <td>15 м²</td>
                         </tr>
                         <tr>
                           <td
@@ -256,7 +256,7 @@ export const Rooms: React.FunctionComponent = () => {
                   >
                     <h4>Комната для компании друзей</h4>
                     <h3>
-                      64$
+                      86$
                       <span>/За одну ночь</span>
                     </h3>
                     <table>
@@ -398,7 +398,7 @@ export const Rooms: React.FunctionComponent = () => {
                   >
                     <h4>Комната с бассеином</h4>
                     <h3>
-                    125$
+                      125$
                       <span>/За одну ночь</span>
                     </h3>
                     <table>
@@ -409,7 +409,7 @@ export const Rooms: React.FunctionComponent = () => {
                               styles.wrapper_content_roomsSection_content_box_block_roomItem_textRooms_tdstyle
                             }
                           >
-                             Размер:
+                            Размер:
                           </td>
                           <td>35 м²</td>
                         </tr>
