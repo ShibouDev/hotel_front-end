@@ -1,20 +1,57 @@
-@use 'fonts';
-@use 'colors';
+@use '../../common/css/colors.scss';
+@use '../../common/css/fonts';
+.container {
+    overflow-y: hidden;
+    width: 100%;
+    height: 100vh;
+    img {
+        width: 100%;
+        height: calc(100vh);
+        object-fit: cover;
+    }
+}
+
+.title {
+    position: absolute;
+    left: 150px;
+    text-align: center;
+    @media screen and (max-width: 1200px) {
+        display: none
+    }
+    p {
+        color: #fff;
+        font-size: 24px;
+    }
+    h2 {
+        color: #fff;
+        font-size: 32px;
+    }
+}
+
 .login {
-    background-color: #fff;
+    position: absolute;
+    right: 35%;
+    top: 270px;
+    @media screen and (max-width: 870px) {
+        right: auto;
+    }
+    @media screen and (max-width: 580px) {
+        width: auto;
+    }
     width: 500px;
     padding: 25px;
     z-index: 1;
     &_title {
         font-weight: 700;
         font-size: 32px;
+        color: #fff;
     }
     &_block {
         margin-top: 20px;
         &_login {
             font-weight: 700;
             margin-bottom: 20px;
-            color: #dfa974;
+            color: #fff;
         }
         &_inputGroup {
             position: relative;
@@ -26,12 +63,13 @@
             input {
                 border-top-left-radius: 5px;
                 border-bottom-left-radius: 5px;
-                width: 100%;
+                width: 90%;
                 outline: none;
                 padding: 20px 20px 20px 20px;
                 font-size: 18px;
                 color: black;
-                border: 2px solid #dfa974;
+                border: 2px solid #FFD2D2;
+                opacity: 40%;
             }
         }
     }
@@ -47,18 +85,19 @@
         button {
             color: #fff;
             padding: 20px;
-            width: 120px;
             border-radius: 5px;
-            border: none;
+            border: 2px solid #fff;
+            border-radius: 10px;
             cursor: pointer;
-            background-color: #dfa974;
+            background-color: #C96D58;
             transition: all .3s ease;
         }
         &_register {
             display: flex;
             justify-content: center;
             a {
-                color: colors.$text-p;
+                color: #fff;
+                text-decoration: none;
             }
         }
     }
@@ -67,11 +106,15 @@
         width: 100vw;
         line-height: 1.2;
         font-size: 1.25rem;
-        background: #dfa974;
-        background: -webkit-linear-gradient(to bottom, #f05053, #dfa974);
-        background: linear-gradient(to bottom, #f05053, #dfa974);
         display: flex;
         align-items: center;
         justify-content: center;
     }
+}
+
+.promoTitle {
+    color: WHITE;
+    font-weight: bold;
+    padding-top: 10px;
+    font-size: 12PX;
 }

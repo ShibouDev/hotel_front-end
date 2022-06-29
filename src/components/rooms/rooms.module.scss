@@ -1,11 +1,10 @@
-@use 'fonts';
-@use 'colors';
+@use '../../common/css/colors.scss';
+@use '../../common/css/fonts';
 .wrapper {
     width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
     &_content {
-        width: 100%;
         padding-right: 15px;
         padding-left: 15px;
         margin-right: auto;
@@ -44,12 +43,14 @@
             padding-top: 0;
             padding-bottom: 80px;
             &_content {
-                width: 100%;
                 padding-right: 15px;
                 padding-left: 15px;
                 margin-right: auto;
                 margin-left: auto;
                 max-width: 1170px;
+                @media screen and (max-width: 600px) {
+                    padding-left: 0;
+                }
                 &_box {
                     display: flex;
                     -ms-flex-wrap: wrap;
@@ -58,8 +59,9 @@
                     margin-left: -15px;
                     &_block {
                         padding: 10px;
-                        flex: 0 0 32.5%;
-                        max-width: 34%;
+                        @media screen and (max-width: 600px) {
+                            padding: 0;
+                        }
                         &_roomItem {
                             margin-bottom: 30px;
                             Image {
@@ -69,6 +71,7 @@
                                 border: 1px solid #ebebeb;
                                 border-top: none;
                                 padding: 24px 24px 30px 28px;
+                                // width: 320px;
                                 h4 {
                                     color: #19191a;
                                     margin-bottom: 17px;
@@ -88,6 +91,18 @@
                                     margin-bottom: 18px;
                                     border-collapse: collapse;
                                     tbody {
+                                        @media screen and (max-width: 750px) {
+                                            tbody, thead {
+                                                float: left;
+                                            }
+                                            thead {
+                                                min-width: 120px
+                                            }
+                                            td,
+                                            th {
+                                                display: block
+                                            }
+                                        }
                                         tr {
                                              :nth-child(1) {
                                                 padding-right: 100px;

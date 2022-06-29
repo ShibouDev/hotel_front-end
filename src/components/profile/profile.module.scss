@@ -1,11 +1,10 @@
-@use 'fonts';
-@use 'colors';
+@use '../../common/css/colors.scss';
+@use '../../common/css/fonts';
 .wrapper {
     width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
     &_content {
-        width: 100%;
         padding-right: 15px;
         padding-left: 15px;
         margin-right: auto;
@@ -47,7 +46,6 @@
             padding-top: 0;
             padding-bottom: 80px;
             &_content {
-                width: 100%;
                 padding-right: 15px;
                 padding-left: 15px;
                 margin-right: auto;
@@ -65,7 +63,7 @@
                         max-width: 34%;
                         &_roomItem {
                             margin-bottom: 30px;
-                            Image {
+                            img {
                                 max-width: 100%;
                             }
                             &_textRooms {

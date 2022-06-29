@@ -1,5 +1,5 @@
-@use 'colors';
-@use 'fonts';
+@use '../../common/css/colors.scss';
+@use '../../common/css/fonts';
 .wrapper {
     &_content {
         &_background {
@@ -28,6 +28,9 @@
                     height: 100%;
                     &_textAll {
                         padding-right: 50px;
+                        @media screen and (max-width: 750px) {
+                            padding-right: 0;
+                        }
                         &_title {
                             color: #fff;
                             font-size: 80px;
@@ -44,6 +47,7 @@
                             padding-bottom: 20px;
                             a {
                                 position: relative;
+                                color: #fff;
                             }
                              ::after {
                                 position: absolute;

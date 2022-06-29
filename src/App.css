@@ -1,0 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Cabin:regular,500,600,700,italic,500italic,600italic,700italic);
+* {
+    margin: 0;
+    font-family: 'cabin', sans-serif;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}

@@ -1,5 +1,5 @@
-@use 'colors';
-@use 'fonts';
+@use '../../common/css/colors.scss';
+@use '../../common/css/fonts';
 .wrapper {
     width: 100vw;
     height: 100vh;

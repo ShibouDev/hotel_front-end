@@ -1,35 +1,53 @@
-@use 'colors';
-@use 'fonts';
+@use '../../common/css/colors.scss';
+@use '../../common/css/fonts';
 .wrapper {
-    width: 100%;
+    // width: 100%;
+    // display: flex;
+    // justify-content: center;
     &_content {
-        display: flex;
-        &_block {
-            justify-content: space-between;
-            width: 100%;
+        &_title {
             display: flex;
+            justify-content: center;
+            padding-bottom: 20px;
+        }
+        &_block {
+            // justify-content: space-between;
+            // width: 100%;
+            // display: flex;
             &_items {
-                position: relative;
                 &_item {
-                    margin-right: -15px;
-                    position: relative;
-                    overflow: hidden;
-                    display: flex;
-                    flex-wrap: wrap;
+                    // position: relative;
+                    // max-width: 1170px;
+                    // overflow: hidden;
+                    // display: flex;
+                    // flex-wrap: wrap;
+                    // justify-content: center;
+                    // padding-top: 50px;
+                    @media screen and (max-width: 600px) {
+                        padding-left: 50px;
+                    }
+                    padding-left: 100px;
                     &_bg {
-                        height: 600px;
-                        background-image: url("../../common/img/room1.jpg");
                         object-fit: cover;
                         background-repeat: no-repeat;
-                        width: 480px;
                         padding-right: 10px;
+                        height: 620px;
+                        @media screen and (max-width: 500px) {
+                            height: auto;
+                            padding-right: 0;
+                        }
+                        img {
+                            @media screen and (max-width: 500px) {
+                                width: 100%;
+                            }
+                        }
                         &_text {
-                            padding-left: 20px;
-                            display: flex;
+                            position: relative;
+                            bottom: 75px;
+                            color: white;
                             flex-direction: column;
-                            height: 600px;
-                            color: #fff;
                             justify-content: flex-end;
+                            align-items: center;
                             h3 {
                                 font-weight: 600;
                                 font-size: 32px;

@@ -1,9 +1,8 @@
-@use 'colors';
-@use 'fonts';
+@use '../../common/css/colors.scss';
+@use '../../common/css/fonts';
 .footerWrapper {
     background: rgb(34, 39, 54);
     &_container {
-        width: 100%;
         padding-right: 15px;
         padding-left: 15px;
         margin-right: auto;
@@ -42,7 +41,9 @@
                 }
                 &_contact {
                     margin-left: 10%;
-                    margin-top: -25px;
+                    @media screen and (max-width: 750px) {
+                        margin: 0;
+                    }
                     h6 {
                         font-size: 14px;
                         color: colors.$text-svg-header;
@@ -64,7 +65,9 @@
                 }
                 &_newLatest {
                     margin-left: 10%;
-                    margin-top: -25px;
+                    @media screen and (max-width: 750px) {
+                        margin: 0;
+                    }
                     h6 {
                         font-size: 14px;
                         color: colors.$text-svg-header;
@@ -80,7 +83,7 @@
                     &_form {
                         position: relative;
                         input {
-                            width: 100%;
+                            width: 93%;
                             height: 50px;
                             border-radius: 2px;
                             background: rgb(57, 61, 74);
@@ -110,7 +113,6 @@
         background: rgba(16, 20, 31, 0.2);
         padding: 20px 0px;
         &_containerCopyright {
-            width: 100%;
             padding-right: 15px;
             padding-left: 15px;
             margin-right: auto;
@@ -125,6 +127,9 @@
                     flex: 0 0 75%;
                     max-width: 75%;
                     padding-right: 15px;
+                    a {
+                        color: #fff;
+                    }
                     ul {
                         padding: 0px;
                         margin: 0px;
