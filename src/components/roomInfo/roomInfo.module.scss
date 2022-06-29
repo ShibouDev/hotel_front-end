@@ -1,0 +1,209 @@
+@use '../../common/css/colors.scss';
+@use '../../common/css/fonts';
+.wrapper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    &_content {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 1170px;
+        &_text {
+            display: flex;
+            flex-wrap: wrap;
+            margin-right: -15px;
+            margin-left: -15px;
+            text-align: center;
+            justify-content: center;
+            flex-direction: column;
+            padding-bottom: 50px;
+            &_title {
+                font-size: 44px;
+                color: #19191a;
+                margin-bottom: 12px;
+            }
+            &_location {
+                &_home {
+                    display: inline-block;
+                    font-size: 18px;
+                    color: #19191a;
+                    position: relative;
+                    font-weight: 500;
+                }
+                &_rooms {
+                    display: inline-block;
+                    font-size: 18px;
+                    color: #aaaab3;
+                }
+            }
+        }
+    }
+    &_roomDetails {
+        padding-top: 0;
+        padding-bottom: 80px;
+        &_content {
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+            max-width: 1170px;
+            &_block {
+                display: flex;
+                flex-wrap: wrap;
+                margin-right: -15px;
+                margin-left: -15px;
+                justify-content: center;
+                padding-bottom: 50px;
+                &_box {
+                    max-width: 64%;
+                    &_info {
+                        margin-bottom: 50px;
+                        img {
+                            max-width: 100%;
+                        }
+                        &_text {
+                            &_title {
+                                overflow: hidden;
+                                h3 {
+                                    color: #19191a;
+                                    font-size: 30px;
+                                }
+                                &_right {
+                                    float: right;
+                                    text-align: right;
+                                    &_bookingNow {
+                                        a {
+                                            display: inline-block;
+                                            color: #fff;
+                                            font-size: 13px;
+                                            text-transform: uppercase;
+                                            font-weight: 700;
+                                            background: #dfa974;
+                                            padding: 14px 28px 13px;
+                                        }
+                                    }
+                                }
+                            }
+                            h2 {
+                                color: #dfa974;
+                                font-weight: 700;
+                                margin-bottom: 25px;
+                                font-size: 36px;
+                                text-align: left;
+                                span {
+                                    font-family: "Cabin", sans-serif;
+                                    font-size: 16px;
+                                    font-weight: 400;
+                                    color: #19191a;
+                                }
+                            }
+                            table {
+                                margin-bottom: 32px;
+                                border-collapse: collapse;
+                                tbody {
+                                     :nth-child(4) {
+                                         :nth-child(1) {
+                                            padding-right: 10px;
+                                        }
+                                    }
+                                    tr {
+                                        td {
+                                            font-size: 16px;
+                                            color: #19191a;
+                                            line-height: 36px;
+                                            width: 150px;
+                                        }
+                                        &_tdStyle {
+                                            width: 120px;
+                                            color: #707079;
+                                        }
+                                    }
+                                }
+                            }
+                            &_textP {
+                                margin-bottom: 22px;
+                            }
+                            &_textP2 {
+                                color: #707079;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    p {
+        padding-top: 6px;
+    }
+}
+
+.modal {
+    font-size: 12px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid white;
+    border-radius: 15px;
+    background: #dfa974;
+    &_close {
+        cursor: pointer;
+        position: absolute;
+        display: block;
+        padding: 0px 5px;
+        line-height: 20px;
+        right: -10px;
+        top: -10px;
+        font-size: 24px;
+        background: #ffffff;
+        border-radius: 18px;
+        border: 1px solid #cfcece;
+    }
+    &_headerModal {
+        width: 100%;
+        border-bottom: 1px solid gray;
+        color: white;
+        font-size: 18px;
+        text-align: center;
+        padding: 5px;
+    }
+    &_contentModal {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 35px 2px;
+        display: flex;
+        flex-direction: column;
+        select {
+            width: 200px;
+            height: 20px;
+        }
+        input {
+            width: 191px;
+        }
+    }
+}
+
+.input1,
+.input2 {
+    margin-top: 10px;
+    color: white;
+    font-size: 14px;
+}
+
+.fio {
+    margin-top: 10px;
+}
+
+.button {
+    height: 35px;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: 2px solid #19191a;
+    background-color: #dfa974;
+}
+
+.buttonPop {
+    width: 100%;
+    text-align: center;
+}

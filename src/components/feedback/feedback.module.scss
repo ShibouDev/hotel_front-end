@@ -1,0 +1,119 @@
+@use '../../common/css/colors.scss';
+@use '../../common/css/fonts';
+.wrapper {
+    padding-top: 10px;
+    padding-bottom: 70px;
+    &_container {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 1400px;
+        &_info {
+            justify-content: center;
+            display: flex;
+            flex-wrap: wrap;
+            margin-right: -15px;
+            margin-left: -15px;
+            &_text {
+                max-width: 35%;
+                @media screen and (max-width: 570px) {
+                    max-width: none;
+                }
+                h2 {
+                    font-size: 44px;
+                    margin-bottom: 24px;
+                    color: colors.$text-p;
+                }
+                p {
+                    font-size: 16px;
+                    color: colors.$text-desc;
+                    font-weight: 400;
+                    line-height: 26px;
+                    margin-bottom: 15px;
+                }
+            }
+            table {
+                tbody {
+                    tr {
+                         :nth-child(1) {
+                            padding-right: 30px;
+                        }
+                        td {
+                            font-size: 16px;
+                            color: #19191a;
+                            line-height: 36px;
+                            font-weight: 500;
+                        }
+                        &_co {
+                            color: colors.$text-desc;
+                            width: 75px;
+                        }
+                    }
+                }
+            }
+            &_blockForm {
+                padding-left: 100px;
+                padding-top: 45px;
+                flex-wrap: wrap;
+                @media screen and (max-width: 570px) {
+                    padding-left: 0;
+                }
+                &_name {
+                    input {
+                        height: 50px;
+                        border: 1px solid #e1e1e1;
+                        font-size: 16px;
+                        color: #aaaab3;
+                        padding-left: 25px;
+                        margin-bottom: 28px;
+                        padding-right: 70px;
+                    }
+                }
+                &_email {
+                    input {
+                        height: 50px;
+                        border: 1px solid #e1e1e1;
+                        font-size: 16px;
+                        color: #aaaab3;
+                        padding-left: 25px;
+                        padding-right: 70px;
+                        margin-bottom: 28px;
+                    }
+                }
+                &_message {
+                    input {
+                        height: 200px;
+                        border: 1px solid #e1e1e1;
+                        font-size: 16px;
+                        color: #aaaab3;
+                        padding-left: 25px;
+                        padding-right: 70px;
+                        display: flex;
+                        flex-direction: column;
+                    }
+                }
+                button {
+                    margin-top: 10px;
+                    background: colors.$text-svg-header;
+                    color: colors.$text-p;
+                    border-radius: 5px;
+                    border: none;
+                    width: 100px;
+                    height: 30px;
+                }
+            }
+            &_maps {
+                iframe {
+                    width: 1170px;
+                    height: 400px;
+                    border: none;
+                    padding-top: 20px;
+                    @media screen and (max-width: 1170px) {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
